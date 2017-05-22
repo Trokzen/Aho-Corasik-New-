@@ -5,6 +5,7 @@ matrix:
     # The default gcc compiler does not support C++11 so install a higher version.
     - os: linux
       env: CC=gcc-5 CXX=g++-5
+      - vc++
       addons: &gcc5
         apt:
           packages:
