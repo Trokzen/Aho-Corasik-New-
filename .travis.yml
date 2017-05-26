@@ -1,0 +1,4 @@
+language: c++
+Compilator:
+  - g++
+script: mvn test -B
