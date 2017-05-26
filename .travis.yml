@@ -1,4 +1,7 @@
-language: c++
-Compilator:
-  - g++
-script: mvn test -B
+language: cpp
+ 
+ 
+before_script: ls
+ 
+script:
+  - make -C BuildB
